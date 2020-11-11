@@ -31,14 +31,17 @@
             this.mainPanel = new System.Windows.Forms.Panel();
             this.navigationBox = new System.Windows.Forms.GroupBox();
             this.shoppingBox = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.iceCreamButton = new System.Windows.Forms.Button();
+            this.drinksButton = new System.Windows.Forms.Button();
+            this.cakesButton = new System.Windows.Forms.Button();
+            this.ordersButton = new System.Windows.Forms.Button();
             this.mainPanel.SuspendLayout();
             this.navigationBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainPanel
             // 
-            this.mainPanel.BackColor = System.Drawing.SystemColors.Info;
+            this.mainPanel.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.mainPanel.Controls.Add(this.shoppingBox);
             this.mainPanel.Controls.Add(this.navigationBox);
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -49,7 +52,11 @@
             // 
             // navigationBox
             // 
-            this.navigationBox.Controls.Add(this.button1);
+            this.navigationBox.Controls.Add(this.iceCreamButton);
+            this.navigationBox.Controls.Add(this.drinksButton);
+            this.navigationBox.Controls.Add(this.cakesButton);
+            this.navigationBox.Controls.Add(this.ordersButton);
+            this.navigationBox.ForeColor = System.Drawing.Color.White;
             this.navigationBox.Location = new System.Drawing.Point(12, 12);
             this.navigationBox.Name = "navigationBox";
             this.navigationBox.Size = new System.Drawing.Size(370, 440);
@@ -59,6 +66,7 @@
             // 
             // shoppingBox
             // 
+            this.shoppingBox.ForeColor = System.Drawing.Color.White;
             this.shoppingBox.Location = new System.Drawing.Point(402, 12);
             this.shoppingBox.Name = "shoppingBox";
             this.shoppingBox.Size = new System.Drawing.Size(370, 440);
@@ -66,14 +74,41 @@
             this.shoppingBox.TabStop = false;
             this.shoppingBox.Text = "Szczegóły zamówienia";
             // 
-            // button1
+            // iceCreamButton
             // 
-            this.button1.Location = new System.Drawing.Point(6, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 75);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.iceCreamButton.Image = global::BakeryInterface.Properties.Resources.iceCream;
+            this.iceCreamButton.Location = new System.Drawing.Point(280, 19);
+            this.iceCreamButton.Name = "iceCreamButton";
+            this.iceCreamButton.Size = new System.Drawing.Size(75, 75);
+            this.iceCreamButton.TabIndex = 3;
+            this.iceCreamButton.UseVisualStyleBackColor = true;
+            // 
+            // drinksButton
+            // 
+            this.drinksButton.Image = global::BakeryInterface.Properties.Resources.drink;
+            this.drinksButton.Location = new System.Drawing.Point(188, 19);
+            this.drinksButton.Name = "drinksButton";
+            this.drinksButton.Size = new System.Drawing.Size(75, 75);
+            this.drinksButton.TabIndex = 2;
+            this.drinksButton.UseVisualStyleBackColor = true;
+            // 
+            // cakesButton
+            // 
+            this.cakesButton.Image = global::BakeryInterface.Properties.Resources.cake;
+            this.cakesButton.Location = new System.Drawing.Point(98, 19);
+            this.cakesButton.Name = "cakesButton";
+            this.cakesButton.Size = new System.Drawing.Size(75, 75);
+            this.cakesButton.TabIndex = 1;
+            this.cakesButton.UseVisualStyleBackColor = true;
+            // 
+            // ordersButton
+            // 
+            this.ordersButton.Image = global::BakeryInterface.Properties.Resources.orderList;
+            this.ordersButton.Location = new System.Drawing.Point(6, 19);
+            this.ordersButton.Name = "ordersButton";
+            this.ordersButton.Size = new System.Drawing.Size(75, 75);
+            this.ordersButton.TabIndex = 0;
+            this.ordersButton.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -94,7 +129,10 @@
         private System.Windows.Forms.Panel mainPanel;
         private System.Windows.Forms.GroupBox shoppingBox;
         private System.Windows.Forms.GroupBox navigationBox;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button ordersButton;
+        private System.Windows.Forms.Button cakesButton;
+        private System.Windows.Forms.Button drinksButton;
+        private System.Windows.Forms.Button iceCreamButton;
     }
 }
 
