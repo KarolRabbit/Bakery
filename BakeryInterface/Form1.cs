@@ -16,5 +16,14 @@ namespace BakeryInterface
         {
             InitializeComponent();
         }
+
+        private void drinksButton_Click(object sender, EventArgs e)
+        {
+            Drinks drinksPage = new Drinks();
+            drinksPage.TopLevel = false;
+            contentPanel.Controls.Clear();
+            contentPanel.Controls.Add(drinksPage);
+            drinksPage.Show();
+        }
     }
 }
