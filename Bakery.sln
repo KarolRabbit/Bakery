@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryInterface", "BakeryInterface\BakeryInterface.csproj", "{E2BC48B3-3CE9-420F-B5A5-79E15D6FF837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BakeryLogic", "BakeryLogic\BakeryLogic.csproj", "{EB8C6590-CF4E-4EC6-9825-A49CDC38427E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2BC48B3-3CE9-420F-B5A5-79E15D6FF837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BC48B3-3CE9-420F-B5A5-79E15D6FF837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BC48B3-3CE9-420F-B5A5-79E15D6FF837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BC48B3-3CE9-420F-B5A5-79E15D6FF837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8C6590-CF4E-4EC6-9825-A49CDC38427E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8C6590-CF4E-4EC6-9825-A49CDC38427E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8C6590-CF4E-4EC6-9825-A49CDC38427E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8C6590-CF4E-4EC6-9825-A49CDC38427E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FCDED2C-654C-48BB-A1C7-F6C26B3AA9EB}
+	EndGlobalSection
+EndGlobal
