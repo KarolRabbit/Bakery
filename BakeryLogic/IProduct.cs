@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BakeryLogic
 {
-    interface IProduct
+    public interface IProduct
     {
         decimal Price { get; set; }
         decimal ReadPrice();

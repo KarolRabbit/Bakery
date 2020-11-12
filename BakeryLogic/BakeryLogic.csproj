@@ -47,6 +47,7 @@
     <Compile Include="drink\Coffe.cs" />
     <Compile Include="drink\Drink.cs" />
     <Compile Include="IProduct.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

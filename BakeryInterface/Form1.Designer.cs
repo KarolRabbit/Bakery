@@ -111,6 +111,7 @@
             this.cakesButton.Size = new System.Drawing.Size(75, 75);
             this.cakesButton.TabIndex = 1;
             this.cakesButton.UseVisualStyleBackColor = true;
+            this.cakesButton.Click += new System.EventHandler(this.cakesButton_Click);
             // 
             // ordersButton
             // 
@@ -120,6 +121,7 @@
             this.ordersButton.Size = new System.Drawing.Size(75, 75);
             this.ordersButton.TabIndex = 0;
             this.ordersButton.UseVisualStyleBackColor = true;
+            this.ordersButton.Click += new System.EventHandler(this.ordersButton_Click);
             // 
             // Form1
             // 
